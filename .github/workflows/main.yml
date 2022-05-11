@@ -25,8 +25,8 @@ jobs:
       run: java -jar target/bing-wallpaper-jar-with-dependencies.jar
     - name: Commit files
       run: |
-         git config --local user.email "haoqiba99@gmail.com"
-         git config --local user.name "m0ba"
+         git config --global user.email "haoqiba99@gmail.com"
+         git config --global user.name "m0ba"
          git add README.md
          git add bing-wallpaper.md
          git commit -m "update readme.md"
